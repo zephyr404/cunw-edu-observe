@@ -1,0 +1,8 @@
+$breakpoints: (
+  'md': 'only screen and ( max-width: 1439px )',
+  'lg': 'only screen and ( min-width: 1440px) and ( max-width: 1919px )',
+  'mx': 'only screen and ( min-width: 1920px) and ( max-width: 2559px )',
+  'mxx': 'only screen and ( min-width: 2560) and ( max-width: 3839px )',
+  'mxxx': 'only screen and ( min-width: 3840px)',
+  // 'xs-retina': (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  ) !default;
